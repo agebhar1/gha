@@ -6,6 +6,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - '.github/workflows/b.yml'
       - 'b/**'
 
 jobs:
