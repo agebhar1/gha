@@ -6,9 +6,9 @@ on:
   push:
     # branches: [ main ]
     paths:
-      - '.github/workflows/a.yml'
       - 'a/**'
       - '!a/README.md'
+      - '.github/workflows/a.yml'
 
 jobs:
   a:
