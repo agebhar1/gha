@@ -8,6 +8,7 @@ on:
     paths:
       - '.github/workflows/b.yml'
       - 'b/**'
+      - '!b/README.md'
 
 jobs:
   b:
