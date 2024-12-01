@@ -4,6 +4,9 @@ permissions: { }
 
 on:
   push:
+    branches: [ main ]
+    paths:
+      - 'a/**'
 
 jobs:
   a:
